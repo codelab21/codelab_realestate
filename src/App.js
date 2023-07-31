@@ -11,6 +11,7 @@ function App() {
     <Router>
       <AppBar />
       {/* <Authentication /> */}
+      {/* Test for github push */}
       <Routes>
         <Route exact path="/" element={<Slider />} />
         <Route exact path="/:id" element={<PostDetail />} />
